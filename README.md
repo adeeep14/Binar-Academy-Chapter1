@@ -1,2 +1,2 @@
-# Binar-Academy-Chapter1
-Challange FSW Chapter 1
+# Binar-Academy-Chapter2
+Challange FSW Chapter 2

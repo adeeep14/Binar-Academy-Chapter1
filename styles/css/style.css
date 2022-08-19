@@ -106,7 +106,7 @@ section {
 }
 
 .jumbotron-text {
-  margin-left: 60px;
+  margin-left: 100px;
 }
 .jumbotron-text h1 {
   font-size: 36px;
@@ -126,6 +126,9 @@ section {
 }
 #testimony-section{
   margin-bottom: 100px;
+}
+#faq-section{
+  margin-bottom: 10px;
 }
 
 
@@ -228,10 +231,10 @@ section {
   background-color: #0d28a6;
   border-radius: 13px;
   padding: 64px 100px;
+  height: 326px;
 }
 
 footer {
-  margin-top: 100px;
   margin-bottom: 60px;
 }
 
@@ -352,7 +355,14 @@ footer {
   }
 
   .cta-banner{
-    padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px;
+  gap: 32px;
+  width: 328px;
+  height: 400px;
   }
 
   .navigation{
@@ -372,6 +382,11 @@ footer {
 
   .navbar-collapse {
     align-items: flex-start;
+  }
+
+  .jumbotron-img{
+    max-width: 100%;
+    margin-bottom: 0;
   }
 
 
